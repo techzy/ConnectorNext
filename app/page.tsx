@@ -54,6 +54,7 @@ export default function Home() {
                 className={validated ? 'was-validated' : ''}
                 onSubmit={handleSubmit}
               >
+                <h1 className='pb-3 text-center'>Connector</h1>
                 <div className="mb-3">
                   <label htmlFor="linkInput" className="form-label">Link</label>
                   <input
