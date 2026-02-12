@@ -1,0 +1,141 @@
+/* ============================= */
+/* GLOBAL LUXURY THEME */
+/* ============================= */
+
+body {
+  background: #f4f4f4;
+  color: #111;
+  font-family: "Playfair Display", serif;
+  letter-spacing: 0.3px;
+}
+
+
+
+
+/* ============================= */
+/* TYPOGRAPHY */
+/* ============================= */
+
+h1, h2, h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ============================= */
+/* CARD (Landing Page Form) */
+/* ============================= */
+
+.card {
+  border-radius: 0;
+  border: 1px solid #111;
+  background: #fff;
+}
+
+.card-body {
+  padding: 3rem;
+}
+
+/* ============================= */
+/* INPUTS */
+/* ============================= */
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  padding: 12px;
+}
+
+.form-control:focus {
+  border-color: #111;
+  box-shadow: none;
+  background: #fff;
+}
+
+/* ============================= */
+/* BUTTONS */
+/* ============================= */
+
+.btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Primary button */
+.btn-primary {
+  background: #111;
+  border: 1px solid #111;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #111;
+  transform: translateY(-2px);
+}
+
+/* Outline button */
+.btn-outline-secondary {
+  border: 1px solid #111;
+  color: #111;
+  background: transparent;
+}
+
+.btn-outline-secondary:hover {
+  background: #111;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ============================= */
+/* VIDEO PAGE */
+/* ============================= */
+
+
+/* ============================= */
+/* MODAL */
+/* ============================= */
+
+.modal-content {
+  border-radius: 0;
+  border: 1px solid #111;
+}
+
+.modal-header,
+.modal-footer {
+  border-color: #e5e5e5;
+}
+
+.modal-title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ============================= */
+/* ALERTS */
+/* ============================= */
+
+.alert-success {
+  background: #fff;
+  border: 1px solid #111;
+  color: #111;
+}
+
+/* ============================= */
+/* SPACING ENHANCEMENTS */
+/* ============================= */
+
+.py-5 {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
